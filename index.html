@@ -5,11 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Spotify Clone</title>
   <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
   <div class="container">
     <aside class="sidebar">
-      <h1>Spotify</h1>
+      <h1 class="logo">🎵 Spotify</h1>
       <nav>
         <ul>
           <li><a href="#">🏠 Home</a></li>
@@ -21,20 +22,38 @@
 
     <main class="main-content">
       <header>
-        <h2>Good Afternoon</h2>
+        <h2>🎶 Good Afternoon</h2>
       </header>
 
       <section class="playlist">
-        <div class="card">Liked Songs</div>
-        <div class="card">Top Hits</div>
-        <div class="card">Discover Weekly</div>
-        <div class="card">Chill Vibes</div>
+        <div class="card">
+          <img src="https://via.placeholder.com/150" alt="Liked Songs" />
+          <h3>Liked Songs</h3>
+        </div>
+        <div class="card">
+          <img src="https://via.placeholder.com/150" alt="Top Hits" />
+          <h3>Top Hits</h3>
+        </div>
+        <div class="card">
+          <img src="https://via.placeholder.com/150" alt="Discover Weekly" />
+          <h3>Discover Weekly</h3>
+        </div>
+        <div class="card">
+          <img src="https://via.placeholder.com/150" alt="Chill Vibes" />
+          <h3>Chill Vibes</h3>
+        </div>
       </section>
     </main>
 
     <footer class="footer">
-      <div class="now-playing">Now Playing: Song Name - Artist</div>
-      <div class="controls">⏮️ ⏯️ ⏭️</div>
+      <div class="now-playing">
+        <strong>Now Playing:</strong> Song Name - Artist 🎧
+      </div>
+      <div class="controls">
+        <button>⏮️</button>
+        <button>⏯️</button>
+        <button>⏭️</button>
+      </div>
     </footer>
   </div>
 </body>
